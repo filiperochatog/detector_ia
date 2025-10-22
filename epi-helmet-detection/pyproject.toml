@@ -1,0 +1,22 @@
+[tool]
+name = "epi-helmet-detection"
+version = "0.1.0"
+description = "A system for detecting individuals and checking if they are wearing helmets."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dependencies = [
+    "opencv-python",
+    "numpy",
+    "tensorflow",  # or "torch" depending on your model
+    "flask",  # if you plan to create a web interface
+    "requests"  # for any API calls
+]
+
+[tool.poetry.scripts]
+start = "src.main:main"  # Assuming you have a main function in main.py to start the application.
