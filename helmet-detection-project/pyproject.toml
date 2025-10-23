@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "helmet-detection-project"
+version = "0.1.0"
+description = "A project to detect people and check if they are wearing helmets using a webcam."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+opencv-python = "^4.5.3"
+tensorflow = "^2.6.0"
+pyyaml = "^5.4.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
