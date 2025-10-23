@@ -1,0 +1,13 @@
+# Configurações padrão para o projeto de detecção de capacetes
+
+detector:
+  confidence_threshold: 0.5
+  model_path: "models/helmet_detector.h5"
+
+video:
+  width: 640
+  height: 480
+  fps: 30
+
+monitoring:
+  alert_message: "Atenção: Usuário sem capacete detectado!"
