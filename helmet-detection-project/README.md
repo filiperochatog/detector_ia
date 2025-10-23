@@ -1,4 +1,4 @@
-# Helmet Detection Project
+# Helmet Detection Project - AgroCalvoTech
 
 Este projeto tem como objetivo detectar pessoas a partir da câmera do notebook e verificar se elas estão usando capacete. O sistema utiliza técnicas de visão computacional para realizar a detecção em tempo real.
 
